@@ -7,6 +7,7 @@ node {
    }
    stage('Build') {
    echo 'santhosh Build'
+      bat 'build.bat'
    }
    stage('Results') {
    echo 'santhosh finished'
